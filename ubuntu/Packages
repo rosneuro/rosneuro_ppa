@@ -136,9 +136,9 @@ Installed-Size: 14
 Depends: ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-acquisition-eegdev, ros-noetic-rosneuro-buffers, ros-noetic-rosneuro-data, ros-noetic-rosneuro-filters, ros-noetic-rosneuro-msgs, ros-noetic-rosneuro-recorder, ros-noetic-rosneuro-visualizer
 Filename: ./ros-noetic-rosneuro-full_2.0.0-0focal_amd64.deb
 Size: 1848
-MD5sum: b0bb282007cdf594f151319714097783
-SHA1: e973b87de90e999ea80d580aeb1f10ef54d1b27d
-SHA256: 5844291bf40c89bf36d8866039a969ed0285eda0ff4fe9bfcd420e83865dff0b
+MD5sum: 1656405babc82a7a3babff70cb6de192
+SHA1: a74bedebbb50e5ab788019326155c7697f6f0765
+SHA256: 0274286228aa53d45b583193815eef0422bfeaab408254e2322635675703af8e
 Section: misc
 Priority: optional
 Description: ROSNEURO metapackage for full installation
