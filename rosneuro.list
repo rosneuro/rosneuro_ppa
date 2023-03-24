@@ -1,1 +1,1 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/rosneuro_ppa.gpg] https://rosneuro.github.io/rosneuro_ppa ./
+deb https://rosneuro.github.io/rosneuro_ppa ./
