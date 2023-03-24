@@ -128,6 +128,23 @@ Section: misc
 Priority: optional
 Description: ROSNeuro filters package
 
+Package: ros-noetic-rosneuro-full
+Version: 2.0focal
+Architecture: all
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 10
+Depends: libbeegdev0, libeegdev-dev, eegdev-plugins-free, ros-noetic-rosneuro-msgs, ros-noetic-rosneuro-data, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-acquisition-eegdev, ros-noetic-rosneuro-recorder, ros-noetic-rosneuro-buffers, ros-noetic-rosneuro-filters, ros-noetic-rosneuro-visualizer
+Filename: ./ros-noetic-rosneuro-full_2.0focal_all.deb
+Size: 2328
+MD5sum: 2f69d14946d3d5e8f3f1a6beba2d9c0b
+SHA1: e71ddc754099a614c23c66775e427013a0a67db8
+SHA256: 2183284236c5f1517cc6977e5404d5cec3be2702fdc5f58649bd940c0587088f
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: ROS-Neuro packages
+ All ROS-Neuro packages currently available
+
 Package: ros-noetic-rosneuro-msgs
 Version: 1.0.0-0focal
 Architecture: amd64
