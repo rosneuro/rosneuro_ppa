@@ -283,12 +283,12 @@ Version: 2.0.0-0focal
 Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@unipd.it>
 Installed-Size: 15
-Depends: ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-acquisition-eegdev, ros-noetic-rosneuro-acquisition-lsl, ros-noetic-rosneuro-buffers, ros-noetic-rosneuro-buffers-ringbuffer, ros-noetic-rosneuro-data, ros-noetic-rosneuro-filters, ros-noetic-rosneuro-filters-blackman, ros-noetic-rosneuro-filters-butterworth, ros-noetic-rosneuro-filters-car, ros-noetic-rosneuro-filters-dc, ros-noetic-rosneuro-filters-flattop, ros-noetic-rosneuro-filters-hamming, ros-noetic-rosneuro-filters-hann, ros-noetic-rosneuro-filters-laplacian, ros-noetic-rosneuro-msgs, ros-noetic-rosneuro-recorder, ros-noetic-rosneuro-visualizer
+Depends: ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-acquisition-eegdev, ros-noetic-rosneuro-buffers, ros-noetic-rosneuro-buffers-ringbuffer, ros-noetic-rosneuro-data, ros-noetic-rosneuro-filters, ros-noetic-rosneuro-filters-blackman, ros-noetic-rosneuro-filters-butterworth, ros-noetic-rosneuro-filters-car, ros-noetic-rosneuro-filters-dc, ros-noetic-rosneuro-filters-flattop, ros-noetic-rosneuro-filters-hamming, ros-noetic-rosneuro-filters-hann, ros-noetic-rosneuro-filters-laplacian, ros-noetic-rosneuro-msgs, ros-noetic-rosneuro-recorder, ros-noetic-rosneuro-visualizer
 Filename: ./ros-noetic-rosneuro-full_2.0.0-0focal_amd64.deb
-Size: 1980
-MD5sum: 71e8574def80239ccd1d65eee9b3d6e2
-SHA1: a9a887eff53ad4c8b111adb5ee5536ba3c741e92
-SHA256: debd1306bc10f71440961df6137eb7af0ed390471d8d7c8241e838140f991a52
+Size: 1972
+MD5sum: 581ac7acd6016963758850c6df8968c8
+SHA1: 072d8ef8c7174ad89b1b8763dfc15ac1b6e08e7a
+SHA256: d5031cf6674b1479cce3bad54cfa521f2e93e8477db9470d391c4cee79599356
 Section: misc
 Priority: optional
 Description: ROSNEURO metapackage for full installation
