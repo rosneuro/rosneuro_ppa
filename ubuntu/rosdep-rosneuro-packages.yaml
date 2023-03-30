@@ -1,0 +1,110 @@
+# External dependencies: common
+eigen:
+    ubuntu:
+        apt:
+            package: [libeigen3-dev]
+
+libqt5core:
+    ubuntu:
+        apt: 
+            package: [libqt5core5a]
+    
+libqt5gui:
+    ubuntu: 
+        apt: 
+            package: [libqt5gui5]
+    
+libqt5widgets:
+    ubuntu:
+        apt:
+            package: [libqt5widgets5]
+    
+libqt5printsupport:
+    ubuntu:
+        apt:
+            package: [libqt5printsupport5]
+    
+QCustomPlot:
+    ubuntu: 
+        apt:
+            package: [libqcustomplot-dev]
+    
+# External dependencies: NeuroDebian
+libeegdev:
+    ubuntu: 
+        apt:
+            package: [libeegdev-dev]
+
+librtfilter:
+    ubuntu:
+        apt:
+            package: [librtfilter-dev]
+
+# External dependency: LabStreamingLayer
+liblsl:
+    ubuntu: [liblsl]
+
+# ROS-Neuro metapackage
+rosneuro_full:
+    ubuntu: [ros-noetic-rosneuro-full]
+
+# ROS-Neuro messages package
+rosneuro_msgs:
+    ubuntu: [ros-noetic-rosneuro-msgs]
+
+# ROS-Neuro data package
+rosneuro_data:
+    ubuntu: [ros-noetic-rosneuro-data]
+
+# ROS-Neuro acquisition packages
+rosneuro_acquisition:
+    ubuntu: [ros-noetic-rosneuro-acquisition]
+
+rosneuro_acquisition_eegdev:
+    ubuntu: [ros-noetic-rosneuro-acquisition-eegdev]
+
+rosneuro_acquisition_lsl:
+    ubuntu: [ros-noetic-rosneuro-acquisition-lsl]
+
+# ROS-Neuro recorder package
+rosneuro_recorder:
+    ubuntu: [ros-noetic-rosneuro-recorder]
+
+# ROS-Neuro visualizer package
+rosneuro_visualizer:
+    ubuntu: [ros-noetic-rosneuro-visualizer]
+
+# ROS-Neuro filter packages
+rosneuro_filters:
+    ubuntu: [ros-noetic-rosneuro-filters]
+
+rosneuro_filters_dc:
+    ubuntu: [ros-noetic-rosneuro-filters-dc]
+    
+rosneuro_filters_butterworth:
+    ubuntu: [ros-noetic-rosneuro-filters-butterworth]
+    
+rosneuro_filters_car:
+    ubuntu: [ros-noetic-rosneuro-filters-car]
+    
+rosneuro_filters_laplacian:
+    ubuntu: [ros-noetic-rosneuro-filters-laplacian]
+    
+rosneuro_filters_blackman:
+    ubuntu: [ros-noetic-rosneuro-filters-blackman]
+    
+rosneuro_filters_flattop:
+    ubuntu: [ros-noetic-rosneuro-filters-flattop]
+    
+rosneuro_filters_hamming:
+    ubuntu: [ros-noetic-rosneuro-filters-hamming]
+    
+rosneuro_filters_hann:
+    ubuntu: [ros-noetic-rosneuro-filters-hann]
+
+# ROS-Neuro buffer packages
+rosneuro_buffers:
+    ubuntu: [ros-noetic-rosneuro-buffers]
+
+rosneuro_buffers_ringbuffer:
+    ubuntu: [ros-noetic-rosneuro-buffers-ringbuffer]
