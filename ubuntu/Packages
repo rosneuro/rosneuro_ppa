@@ -149,11 +149,26 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@unipd.it>
 Installed-Size: 125
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-filters_2.0.0-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-filters_2.0.0-0focal_amd64.deb
 Size: 26780
 MD5sum: 67d1c8918975d42ecdbab58122c103db
 SHA1: 61d5e6a5522e5206442a7640b63b79f8392aa15b
 SHA256: 3338b4732282bfd6eb8410886d5363d270584a2bdd0e10030395c845fc5451dd
+Section: misc
+Priority: optional
+Description: ROSNeuro filters package
+
+Package: ros-noetic-rosneuro-filters
+Version: 2.1.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 444
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-filters_2.1.0-0focal_amd64.deb
+Size: 107304
+MD5sum: 3459d4ed706e9ad40c72dc660054c1a7
+SHA1: b0f4177f6677a3ddc266b89caae4ee5db3c4630b
+SHA256: dba1cac50494afad870fc8323257a9fd1b3bfa603f505488cd3a795a8bdc8c97
 Section: misc
 Priority: optional
 Description: ROSNeuro filters package
