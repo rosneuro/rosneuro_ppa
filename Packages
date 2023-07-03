@@ -1,0 +1,430 @@
+Package: eegdev-plugins-free
+Source: eegdev
+Version: 0.3.0-1
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 397
+Depends: libeegdev0 (= 0.3.0-1), libc6 (>= 2.28), libexpat1 (>= 2.0.1), libusb-1.0-0 (>= 2:1.0.8), libxdffileio0 (>= 0.0)
+Filename: ./ubuntu/eegdev-plugins-free_0.3.0-1_amd64.deb
+Size: 76000
+MD5sum: 2a2e648ca4cc64cb0d773e14fcec600b
+SHA1: f12e9e0d700b98f686343130c75d3939b204514f
+SHA256: 0f5b9c24764d70a58a6982c6820623afc4edc6c1f189823090857486962b23f8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: auto-generated package by debmake: bin #2
+ This package contains the compiled binary executable.: #2
+
+Package: libeegdev-dev
+Source: eegdev
+Version: 0.3.0-1
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 60
+Depends: libeegdev0 (= 0.3.0-1)
+Filename: ./ubuntu/libeegdev-dev_0.3.0-1_amd64.deb
+Size: 18572
+MD5sum: 6b5180daa4879d29be7df818aa90df24
+SHA1: fd067f6a6e1f1dba344446291e6f4d8362bfa6f5
+SHA256: dc1544f4de931a253020e121a50354fcd9362ae79421ae094e99833bfe24f91a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: auto-generated package by debmake: dev #5
+ This package contains the development files.: #5
+
+Package: libeegdev0
+Source: eegdev
+Version: 0.3.0-1
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 185
+Depends: libc6 (>= 2.28)
+Recommends: eegdev-plugins-free
+Filename: ./ubuntu/libeegdev0_0.3.0-1_amd64.deb
+Size: 72304
+MD5sum: 94c6c28edc6cfdf4707b33690ecad408
+SHA1: ae5425ad68efa54bb88f3e3fff0f0d46e5f13652
+SHA256: 6a6bf53bd237f95b525d2442e818f59c30ffb5109b4cee5888d5e0ab039b03bc
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: auto-generated package by debmake: lib #1
+ This package contains the shared library.: #1
+
+Package: ros-noetic-rosneuro-acquisition
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 440
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-acquisition_1.0.1-0focal_amd64.deb
+Size: 102664
+MD5sum: 46561682ec323e577b5a619c111bcf90
+SHA1: 1dc8f629f2895502c377ff56fec794715d1916f1
+SHA256: 4e71ccd242d3d6735c32d960a7cd7a7bd9811c76651f1ad0bc50b9159f138fff
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition package to acquire Neural data from different devices
+
+Package: ros-noetic-rosneuro-acquisition
+Version: 1.1.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 440
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-acquisition_1.1.0-0focal_amd64.deb
+Size: 102060
+MD5sum: 2b35a8880fca6aa94c22cf92f133e9ca
+SHA1: 393ceadc0a353b6db6f594020df4025db0d0f9cb
+SHA256: 579390e55594f8b7eaed83acb1f3c98f2488d4b51aae16494f3b1db0b9662f6a
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition package to acquire Neural data from different devices
+
+Package: ros-noetic-rosneuro-acquisition-eegdev
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 104
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libeegdev0, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeegdev-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-acquisition-eegdev_2.0.0-0focal_amd64.deb
+Size: 27228
+MD5sum: 5d7993da7cda4059c4b28af84a2bb085
+SHA1: 793bd9c47b5d41ef5f757b70dda02b1850e369af
+SHA256: b1f7cf27f2caf5eba1e16001654098967693a46d6724a99f9412431c8fe946bb
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for EEGDEV
+
+Package: ros-noetic-rosneuro-acquisition-eegdev
+Version: 2.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 104
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libeegdev0, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeegdev-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-acquisition-eegdev_2.0.1-0focal_amd64.deb
+Size: 27240
+MD5sum: 81e97e981ff919bc478082c5d81cd8fa
+SHA1: cf4d72d36cd535ce47819a2b62fbb20376fe5a40
+SHA256: caa964124b61d0d9a34b5bc71101012fc177945e31c0017e320740841491ce2b
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for EEGDEV
+
+Package: ros-noetic-rosneuro-acquisition-lsl
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), liblsl (= 1.16.1-focal), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-acquisition-lsl_0.0.1-0focal_amd64.deb
+Size: 27304
+MD5sum: 6863bd91f9f6d6ab378a1c81e970d4ee
+SHA1: 61dcc82ff297a6d5825eb195773b20e9f33ea30f
+SHA256: 55fce2f5c5a77a9ecbc0f4f810f2ffd22a0901e54bd58128daedbe78f63ca5c1
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for LSL
+
+Package: ros-noetic-rosneuro-acquisition-lsl
+Version: 0.0.2-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), liblsl (= 1.16.1-focal), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-acquisition-lsl_0.0.2-0focal_amd64.deb
+Size: 27288
+MD5sum: 4595886be776fcb8198633e8edac6d15
+SHA1: f467d433215d75afee0e1b8aa39bf293ea10bc4e
+SHA256: 73edf497f5dc4f479b0e5a37179061ff78222b7ceb864a32ed01f75673af4368
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for LSL
+
+Package: ros-noetic-rosneuro-buffers
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 68
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-buffers_2.0.0-0focal_amd64.deb
+Size: 14696
+MD5sum: 453c8bf9ba8bdabe57f61a93a7d3e2b0
+SHA1: 3eae747f36084ef08cb406790c5dbf695636133e
+SHA256: bba2365f34d16800d63860418d6909acbfcfaae5fbf23d43ce263f0ba05990bb
+Section: misc
+Priority: optional
+Description: ROSNeuro buffers package
+
+Package: ros-noetic-rosneuro-buffers-ringbuffer
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 111
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-buffers, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-buffers-ringbuffer_1.0.0-0focal_amd64.deb
+Size: 25004
+MD5sum: e344ded1c79ad4671fcbe6390323836d
+SHA1: 83f2050f27225c5e4c28c548fe3bcbbf0f4b6f03
+SHA256: 029c1758333eb0f83d5b743e79009b4eff0ba380d44b42736cb3a877c02ed7a6
+Section: misc
+Priority: optional
+Description: ROSNeuro Ring Buffer package
+
+Package: ros-noetic-rosneuro-data
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 78
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb
+Size: 16588
+MD5sum: f99a2a9d3adb65dfaf2ddeb9347782ec
+SHA1: 1fb64c025a912fba7320d3273d09a0f92f5b8e64
+SHA256: 473e2e79f28c9b7550c23a90e6c04406288a7755b021a8dec64ef7cec412f9cf
+Section: misc
+Priority: optional
+Description: ROSNEURO Data package
+
+Package: ros-noetic-rosneuro-data
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 78
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-data_1.0.1-0focal_amd64.deb
+Size: 16648
+MD5sum: c676cc663b94bb5c139861b23539dbbd
+SHA1: b5bc1e71b16d0fc70bcec4c968ee6631c4807f6a
+SHA256: cbea0d5bdb9205f39a9c09c990fdf0a113c4dee0439e2c38dacb60f680b6bbda
+Section: misc
+Priority: optional
+Description: ROSNEURO Data package
+
+Package: ros-noetic-rosneuro-filters
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 125
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-filters_2.0.0-0focal_amd64.deb
+Size: 26780
+MD5sum: 67d1c8918975d42ecdbab58122c103db
+SHA1: 61d5e6a5522e5206442a7640b63b79f8392aa15b
+SHA256: 3338b4732282bfd6eb8410886d5363d270584a2bdd0e10030395c845fc5451dd
+Section: misc
+Priority: optional
+Description: ROSNeuro filters package
+
+Package: ros-noetic-rosneuro-filters
+Version: 2.1.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 444
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters_2.1.0-0focal_amd64.deb
+Size: 107304
+MD5sum: 3459d4ed706e9ad40c72dc660054c1a7
+SHA1: b0f4177f6677a3ddc266b89caae4ee5db3c4630b
+SHA256: dba1cac50494afad870fc8323257a9fd1b3bfa603f505488cd3a795a8bdc8c97
+Section: misc
+Priority: optional
+Description: ROSNeuro filters package
+
+Package: ros-noetic-rosneuro-filters-blackman
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-blackman_1.0.0-0focal_amd64.deb
+Size: 23648
+MD5sum: 687426605dec3abf55813a745ea67afa
+SHA1: cf7c21a25917a240bc5e5d202d32c14cd64a91aa
+SHA256: 13fd2b8094c9f43033d77671d9fc55e372af9cb9b1f43957bb4e6ea6229edfde
+Section: misc
+Priority: optional
+Description: ROSNeuro Blackman window package
+
+Package: ros-noetic-rosneuro-filters-butterworth
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 132
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), librtfilter1 (>= 1.0), libstdc++6 (>= 5.2), libeigen3-dev, librtfilter-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-butterworth_1.0.0-0focal_amd64.deb
+Size: 27856
+MD5sum: d7739d1425f7935a2da33803a9a922b6
+SHA1: 62088dbb398ab25b9b8abce4e9e15cc35fde2c95
+SHA256: 54b163278c288c5b7486513bfdbfe93a246353bd8b29d7a3efaa8117d338bc70
+Section: misc
+Priority: optional
+Description: ROSNeuro Butterworth filter package
+
+Package: ros-noetic-rosneuro-filters-car
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 97
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-car_1.0.0-0focal_amd64.deb
+Size: 21300
+MD5sum: 7dbb09cde57b3acfd6a270de66604657
+SHA1: 6484e9af3f2ad342d76025512fb91ea34a518199
+SHA256: 7fb76eb9932610ae8a3be2c6ea2d6ea0aa1a7c517a354ffe2f259a899b2d235b
+Section: misc
+Priority: optional
+Description: ROSNeuro CAR filters package
+
+Package: ros-noetic-rosneuro-filters-dc
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 97
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-dc_1.0.0-0focal_amd64.deb
+Size: 22156
+MD5sum: 1a7576980042c96ad95af337d63515ad
+SHA1: 1e94b23d5221c59f125243b8bfb07649cf5d7ef4
+SHA256: 656a97cfe7cc1c371dee0cf94983f7641a911ffdabbc57127554306accae62f4
+Section: misc
+Priority: optional
+Description: ROSNeuro DC filters package
+
+Package: ros-noetic-rosneuro-filters-flattop
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-flattop_1.0.0-0focal_amd64.deb
+Size: 23928
+MD5sum: cbd4b527a0fe3e7fd06a142dd1c353b1
+SHA1: 499b6eb718bf9c3bdbb5c137bb36d1f5930714df
+SHA256: 99556c0063a8ea5d7eb79d41569d6e284ea18e1b42257dbbca784b8ddb5e72b1
+Section: misc
+Priority: optional
+Description: ROSNeuro Flattop window package
+
+Package: ros-noetic-rosneuro-filters-hamming
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-hamming_1.0.0-0focal_amd64.deb
+Size: 23672
+MD5sum: 3e2a411940dd2e3cc30b160597098953
+SHA1: 37440a07e50c9976d81a225743c558d0d02e6337
+SHA256: 8de46fca5a73184cf2fdfd144b2311a2c981b2a7ec4e351c115022c71c848c4b
+Section: misc
+Priority: optional
+Description: ROSNeuro Hamming window package
+
+Package: ros-noetic-rosneuro-filters-hann
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-hann_1.0.0-0focal_amd64.deb
+Size: 23660
+MD5sum: b53481dd3d33dfeda574d07204e4551c
+SHA1: 4999da69f2f9157a46545bac893eabe260eb0fbb
+SHA256: 94c331bc7754726534683448b11ad6b4c0937d219eccc23de77b01e10dd373ad
+Section: misc
+Priority: optional
+Description: ROSNeuro Hann window package
+
+Package: ros-noetic-rosneuro-filters-laplacian
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 346
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosneuro-filters, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-filters-laplacian_1.0.0-0focal_amd64.deb
+Size: 89364
+MD5sum: 6c72cea13241827f6604f73cc6f9cdaf
+SHA1: 06fa0f88b4f3897531cf5686309e6a4f931c6afe
+SHA256: d2bcd866dee65de096387e05945732ad00976e496301b2db860651ce28b439be
+Section: misc
+Priority: optional
+Description: ROSNeuro Laplacian filter package
+
+Package: ros-noetic-rosneuro-full
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 15
+Depends: ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-acquisition-eegdev, ros-noetic-rosneuro-buffers, ros-noetic-rosneuro-buffers-ringbuffer, ros-noetic-rosneuro-data, ros-noetic-rosneuro-filters, ros-noetic-rosneuro-filters-blackman, ros-noetic-rosneuro-filters-butterworth, ros-noetic-rosneuro-filters-car, ros-noetic-rosneuro-filters-dc, ros-noetic-rosneuro-filters-flattop, ros-noetic-rosneuro-filters-hamming, ros-noetic-rosneuro-filters-hann, ros-noetic-rosneuro-filters-laplacian, ros-noetic-rosneuro-msgs, ros-noetic-rosneuro-recorder, ros-noetic-rosneuro-visualizer
+Filename: ./ubuntu/ros-noetic-rosneuro-full_2.0.0-0focal_amd64.deb
+Size: 1972
+MD5sum: 581ac7acd6016963758850c6df8968c8
+SHA1: 072d8ef8c7174ad89b1b8763dfc15ac1b6e08e7a
+SHA256: d5031cf6674b1479cce3bad54cfa521f2e93e8477db9470d391c4cee79599356
+Section: misc
+Priority: optional
+Description: ROSNEURO metapackage for full installation
+
+Package: ros-noetic-rosneuro-msgs
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 526
+Depends: ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-std-msgs
+Filename: ./ubuntu/previous/ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb
+Size: 40260
+MD5sum: 41e3715e9c8f1fe9e162dc90cce43073
+SHA1: 6c1a6126ceb37d750b89803574cc1e2b362d1fe8
+SHA256: b6da5626c4068c11c5b557099abeff7274a8750b151a568309a51edbc3e8de18
+Section: misc
+Priority: optional
+Description: ROSNeuro message type
+
+Package: ros-noetic-rosneuro-msgs
+Version: 1.5.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 594
+Depends: ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-msgs_1.5.0-0focal_amd64.deb
+Size: 44392
+MD5sum: 8a68a646abbd628255136f256c9075ac
+SHA1: 1433d3a3c91045b906dad088a42272f21aa1852a
+SHA256: 8bc4187e1345349d0f608ffdb17e87fb7162e8c6584bf444dd405e16b1157ea4
+Section: misc
+Priority: optional
+Description: ROSNeuro messages package
+
+Package: ros-noetic-rosneuro-recorder
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 257
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libxdffileio0 (>= 0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-recorder_1.0.1-0focal_amd64.deb
+Size: 56948
+MD5sum: dc9e6ff3a0411163c6ad9c0eca7152a9
+SHA1: 1b1a6a2fceef65205b926927a8ea23b4f40ba06f
+SHA256: c778cd5dc42b49e53a6580bb88567bb0ad50f0fe901f452ccdc8d1859e6653de
+Section: misc
+Priority: optional
+Description: ROSNEURO Recorder package to record Neural data
+
+Package: ros-noetic-rosneuro-visualizer
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 291
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqcustomplot2.0, libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), librtfilter1 (>= 1.0), libstdc++6 (>= 5.2), libeigen3-dev, libqcustomplot-dev, libqt5gui5, libqt5printsupport5, librtfilter-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ubuntu/ros-noetic-rosneuro-visualizer_1.0.1-0focal_amd64.deb
+Size: 75576
+MD5sum: 5a00c254424cc4a5029a0459ac9295f6
+SHA1: 7bb4145d0090613ec145e84db488e6aa77b66619
+SHA256: b8f9f10b844dc464626cd0a9b128c2cf94e49c3ca2e8cd65213b029cf1dd259f
+Section: misc
+Priority: optional
+Description: ROSNEURO visualizer package to visualize NeuroFrame
+

@@ -1,0 +1,3 @@
+curl -s --compressed "https://rosneuro.github.io/ppa/ubuntu/rosneuro-key.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/rosneuro-key.gpg >/dev/null
+sudo curl -s --compressed -o /etc/apt/sources.list.d/rosneuro.list "https://rosneuro.github.io/ppa/ubuntu/rosneuro.list"
+
