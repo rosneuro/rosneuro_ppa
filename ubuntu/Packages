@@ -59,11 +59,26 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 440
 Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-acquisition_1.0.1-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-acquisition_1.0.1-0focal_amd64.deb
 Size: 102664
 MD5sum: 46561682ec323e577b5a619c111bcf90
 SHA1: 1dc8f629f2895502c377ff56fec794715d1916f1
 SHA256: 4e71ccd242d3d6735c32d960a7cd7a7bd9811c76651f1ad0bc50b9159f138fff
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition package to acquire Neural data from different devices
+
+Package: ros-noetic-rosneuro-acquisition
+Version: 1.1.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 440
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-acquisition_1.1.0-0focal_amd64.deb
+Size: 102060
+MD5sum: 2b35a8880fca6aa94c22cf92f133e9ca
+SHA1: 393ceadc0a353b6db6f594020df4025db0d0f9cb
+SHA256: 579390e55594f8b7eaed83acb1f3c98f2488d4b51aae16494f3b1db0b9662f6a
 Section: misc
 Priority: optional
 Description: ROSNEURO Acquisition package to acquire Neural data from different devices
@@ -74,11 +89,26 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 104
 Depends: libc6 (>= 2.14), libconsole-bridge0.4, libeegdev0, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeegdev-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-acquisition-eegdev_2.0.0-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-acquisition-eegdev_2.0.0-0focal_amd64.deb
 Size: 27228
 MD5sum: 5d7993da7cda4059c4b28af84a2bb085
 SHA1: 793bd9c47b5d41ef5f757b70dda02b1850e369af
 SHA256: b1f7cf27f2caf5eba1e16001654098967693a46d6724a99f9412431c8fe946bb
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for EEGDEV
+
+Package: ros-noetic-rosneuro-acquisition-eegdev
+Version: 2.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 104
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libeegdev0, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libeegdev-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-acquisition-eegdev_2.0.1-0focal_amd64.deb
+Size: 27240
+MD5sum: 81e97e981ff919bc478082c5d81cd8fa
+SHA1: cf4d72d36cd535ce47819a2b62fbb20376fe5a40
+SHA256: caa964124b61d0d9a34b5bc71101012fc177945e31c0017e320740841491ce2b
 Section: misc
 Priority: optional
 Description: ROSNEURO Acquisition Plugin Package for EEGDEV
@@ -89,11 +119,26 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 106
 Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), liblsl (= 1.16.1-focal), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-acquisition-lsl_0.0.1-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-acquisition-lsl_0.0.1-0focal_amd64.deb
 Size: 27304
 MD5sum: 6863bd91f9f6d6ab378a1c81e970d4ee
 SHA1: 61dcc82ff297a6d5825eb195773b20e9f33ea30f
 SHA256: 55fce2f5c5a77a9ecbc0f4f810f2ffd22a0901e54bd58128daedbe78f63ca5c1
+Section: misc
+Priority: optional
+Description: ROSNEURO Acquisition Plugin Package for LSL
+
+Package: ros-noetic-rosneuro-acquisition-lsl
+Version: 0.0.2-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), liblsl (= 1.16.1-focal), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-acquisition, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-acquisition-lsl_0.0.2-0focal_amd64.deb
+Size: 27288
+MD5sum: 4595886be776fcb8198633e8edac6d15
+SHA1: f467d433215d75afee0e1b8aa39bf293ea10bc4e
+SHA256: 73edf497f5dc4f479b0e5a37179061ff78222b7ceb864a32ed01f75673af4368
 Section: misc
 Priority: optional
 Description: ROSNEURO Acquisition Plugin Package for LSL
@@ -134,11 +179,26 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 78
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb
 Size: 16588
 MD5sum: f99a2a9d3adb65dfaf2ddeb9347782ec
 SHA1: 1fb64c025a912fba7320d3273d09a0f92f5b8e64
 SHA256: 473e2e79f28c9b7550c23a90e6c04406288a7755b021a8dec64ef7cec412f9cf
+Section: misc
+Priority: optional
+Description: ROSNEURO Data package
+
+Package: ros-noetic-rosneuro-data
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
+Installed-Size: 78
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-data_1.0.1-0focal_amd64.deb
+Size: 16648
+MD5sum: c676cc663b94bb5c139861b23539dbbd
+SHA1: b5bc1e71b16d0fc70bcec4c968ee6631c4807f6a
+SHA256: cbea0d5bdb9205f39a9c09c990fdf0a113c4dee0439e2c38dacb60f680b6bbda
 Section: misc
 Priority: optional
 Description: ROSNEURO Data package
@@ -314,7 +374,7 @@ Architecture: amd64
 Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 526
 Depends: ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-std-msgs
-Filename: ./ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb
+Filename: ./previous/ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb
 Size: 40260
 MD5sum: 41e3715e9c8f1fe9e162dc90cce43073
 SHA1: 6c1a6126ceb37d750b89803574cc1e2b362d1fe8
@@ -322,6 +382,21 @@ SHA256: b6da5626c4068c11c5b557099abeff7274a8750b151a568309a51edbc3e8de18
 Section: misc
 Priority: optional
 Description: ROSNeuro message type
+
+Package: ros-noetic-rosneuro-msgs
+Version: 1.5.0-0focal
+Architecture: amd64
+Maintainer: Luca Tonin <luca.tonin@unipd.it>
+Installed-Size: 594
+Depends: ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-msgs_1.5.0-0focal_amd64.deb
+Size: 44392
+MD5sum: 8a68a646abbd628255136f256c9075ac
+SHA1: 1433d3a3c91045b906dad088a42272f21aa1852a
+SHA256: 8bc4187e1345349d0f608ffdb17e87fb7162e8c6584bf444dd405e16b1157ea4
+Section: misc
+Priority: optional
+Description: ROSNeuro messages package
 
 Package: ros-noetic-rosneuro-recorder
 Version: 1.0.1-0focal
