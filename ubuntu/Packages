@@ -405,10 +405,10 @@ Maintainer: Luca Tonin <luca.tonin@dei.unipd.it>
 Installed-Size: 257
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libxdffileio0 (>= 0.0), ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rosneuro-data, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
 Filename: ./ros-noetic-rosneuro-recorder_1.0.1-0focal_amd64.deb
-Size: 56812
-MD5sum: 4a633d505b74a47d747bfc11bfa5f62b
-SHA1: 9a1d86fc62949015c646c5f3c8f162ab45434b5e
-SHA256: 620a1f2cae78dd065772e4cb7a8bc940d3a1da77837251122db07fd85518d1b4
+Size: 57004
+MD5sum: 51cab21bfa1c5759b36281ed1652e3ae
+SHA1: 597e32a6272a4cbd975b04d8a16bff0a635540f6
+SHA256: a5fb05f0f7c18a7f523e2ddbddf143125d77dc1b4eb7d2d287292c638df0553c
 Section: misc
 Priority: optional
 Description: ROSNEURO Recorder package to record Neural data
