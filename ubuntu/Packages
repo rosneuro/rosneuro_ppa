@@ -203,6 +203,21 @@ Section: misc
 Priority: optional
 Description: ROSNEURO Data package
 
+Package: ros-noetic-rosneuro-decoder
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: paolo <paolo@todo.todo>
+Installed-Size: 29
+Depends: ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rosneuro-msgs, ros-noetic-std-msgs
+Filename: ./ros-noetic-rosneuro-decoder_1.0.0-0focal_amd64.deb
+Size: 4724
+MD5sum: 74ba5b697808ba5a011d913c49d5d968
+SHA1: 5c473bc1d4d7db4cf50426f7641f7a4fc850cd11
+SHA256: 4e28004cc459ffd3fd0d723925d7673b2b4e6e266761783e62b3b3da41e87f00
+Section: misc
+Priority: optional
+Description: The rosneuro_decoder package
+
 Package: ros-noetic-rosneuro-filters
 Version: 2.0.0-0focal
 Architecture: amd64
